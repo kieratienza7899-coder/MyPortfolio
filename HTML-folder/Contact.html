@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+   <head>
+
+    <title> My Portfolio | Contact </title>
+    <link rel="stylesheet" href="../CSS-folder/contact.css">
+    
+  </head>
+   
+   
+   <body>
+    <div class="header">
+              <h1>Contact</h1>    
+         </div>   
+          
+                 <div class="link">
+                     <a href="Homepage.html">HOME</a>
+                     <a href="Skills.html">SKILLS</a>
+                     <a href="Lessons.html">LESSONS</a>
+                     <a href="Contact.html">CONTACT</a>
+                 </div>
+     <div class="contact-bottom">
+
+                    <h2>kieratienza807@gmail.com</h2>
+
+                    <form id = "contactForm" class="contact-form">
+
+                    <div class="form-left">
+                        <label>Name</label>
+                        <input type="text" id="name" placeholder="Name">
+
+                        <label>Email</label>
+                        <input type="email" id="email" placeholder="Email">
+                    </div>
+
+                    <div class="form-right">
+                        <label>Message</label>
+                        <textarea id="message" placeholder="Send a message"></textarea>
+                    </div>
+
+                    <button type="submit">Send email</button>
+
+                    </form>
+
+        </div>
+  <script>
+    document.getElementById("contactForm").onsubmit = function (e) {
+    e.preventDefault();
+
+     var name = document.getElementById("name").value;
+     var email = document.getElementById("email").value;
+     var message = document.getElementById("message").value;
+
+      if (name == "" || email == "" || message == "") {
+        alert("Please fill in all fields.");
+      return;
+       }
+
+         if (email.indexOf("@") == -1 || email.indexOf(".") == -1) {
+          alert("Please enter a valid email.");
+         return;
+          }
+
+         alert("Message sent successfully!");
+
+         this.reset();
+      };
+
+
+
+
+  </script>
+
+       <footer>
+
+            <p>© 2026 Kier S. Atienza Portfolio </p>
+
+      </footer>
+
+
+   
+
+   </body>
+
+
+
+</html>
+
+
+
+
+
+
