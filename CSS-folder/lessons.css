@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+}
+
+body {
+    
+    
+    padding: 0px 15vw;
+  
+}
+.header {
+
+   font-size: 20px;
+   color: white;
+   background-color: blue;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding:30px;
+   gap: 20px;
+   
+
+}
+.link {
+    
+
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color:royalblue;
+    padding: 15px;
+    gap: 50px;
+    margin-bottom: 20px;
+    
+    
+    
+}
+h3{
+
+    margin-left: 30px;
+
+}
+
+p{ 
+ margin: 2px;
+ margin-left: 30px;  
+ font-size: 15px;
+}
+a:hover {
+
+ 
+ transform:scale(1.1);
+ transition: 200ms;
+ padding: 10px;
+ border-radius: 20px;
+ 
+ 
+ 
+
+}
+
+
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    margin-left: 30px;
+    
+}
+
+.lessons {
+    
+    
+    
+    height: 850px;
+    width: 1000px;
+    margin: 50px;
+    margin-bottom: 45px;
+        
+
+}
+
+.lesson {
+
+  
+  width: 1000px;
+  height: 90px;
+  
+
+}
+.lesson:hover {
+
+ background-color:royalblue;
+ transform:scale(1.05);
+ transition: 200ms;
+ border-radius: 10px;
+ 
+
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 30px;
+    border: none;
+    background-color: blue;
+    padding-bottom:30px;
+}
